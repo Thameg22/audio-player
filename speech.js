@@ -51,42 +51,12 @@ if (annyang) {
        audio2.play(); 
    
      }, 
-     'play nattu kuthu' :  function(){
-      audio2 = new Audio('songs/nk.mp3');
-         audio2.loop = false;
-         audio2.play(); 
-     
-       }, 'play dippam dappam' :  function(){
-        audio2 = new Audio('songs/dd.mp3');
-           audio2.loop = false;
-           audio2.play(); 
-       
-         }, 'play dance monkey' :  function(){
-          audio2 = new Audio('songs/dm.mp3');
-             audio2.loop = false;
-             audio2.play(); 
-         
-           }, 'play shape of you' :  function(){
-            audio2 = new Audio('songs/sou.mp3');
-               audio2.loop = false;
-               audio2.play(); 
-           
-             }, 'play pathala pathala' :  function(){
-              audio2 = new Audio('songs/vpp.mp3');
-                 audio2.loop = false;
-                 audio2.play(); 
-             
-               }, 'play that' :  function(){
+      'play that' :  function(){
                 audio2 = new Audio('songs/ak.mp3');
                    audio2.loop = false;
                    audio2.play(); 
                
-                 }, 'play rowdy baby' :  function(){
-                  audio2 = new Audio('songs/rb.mp3');
-                     audio2.loop = false;
-                     audio2.play(); 
-                 
-                   },
+                 }, 
   
   "loop" : () => {
     console.log('loop')
