@@ -1,0 +1,7 @@
+#vwrap {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  transition: all 0.3s;
+}
